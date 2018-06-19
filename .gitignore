@@ -21,6 +21,7 @@ jspm_packages/
 
 # Nuxt generate
 dist
+dist/*
 
 
 # Typescript v1 declaration files
