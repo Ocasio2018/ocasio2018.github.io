@@ -25,7 +25,7 @@ module.exports = {
   ** Customize the progress-bar color
   */
   loading: { color: '#3B8070' },
-  build: {
+  /*build: {
     /*
     ** Run ESLINT on save
     *
@@ -38,6 +38,6 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }*/
-  }
+    }
+  }*/
 }
