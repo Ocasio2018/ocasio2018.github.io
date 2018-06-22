@@ -12,7 +12,7 @@
       meta: [
         { vmid: 'description', name: 'description', content: 'Make calls for Ocasio2018' },
         { property: 'og:title', content: 'Make Calls for Ocasio2018' },
-        { property: 'og:image', content: '/Ocasio2018_meta_img.png' },
+        { property: 'og:image', content: 'https://ocasio2018.netlify.com/Ocasio2018_meta_img.png' },
         { property: 'og:url', content: 'https://ocasio2018.github.io' },
         { property: 'og:type', content: 'website' },
       ]
@@ -65,13 +65,13 @@
       <hr>
       <div class="row">
         <div class="col-md-4">
-          <h2>Calling Hours</h2>
-          <p>We make calls from <strong>10AM - 9PM on Mondaythrough Saturday and 12PM - 9PM on Sunday's in our candidates' local time zones</strong>, so check back anytime you want to make calls.</p>
-          <p>However, your login information will change each day, so you'll need to reclaim it.</p>
+          <h2>Questions</h2>
+          <p>Please email <a href="mailto:us@ocasio2018.com">us@ocasio2018.com</a> , or call (845) 605-2742.</p>
         </div>
         <div class="col-md-8">
-          <h2>Questions</h2>
-          <p>Please email <a href="mailto:calling@justicedemocrats.com">calling@justicedemocrats.com</a> , or use the livechat widget in the bottom of this window. We'll get back to you as soon as we can.</p>
+          <h2>Calling Hours</h2>
+          <p>We make calls from <strong>10AM - 9PM</strong> on <strong>Monday</strong> through <strong>Saturday</strong> and <strong>12PM - 9PM</strong> on <strong>Sundays</strong> in our candidates' local time zones</strong>, so check back anytime you want to make calls.</p>
+          <p>However, your login information will change each day, so you'll need to reclaim it.</p>
         </div>
       </div>
     </section>
