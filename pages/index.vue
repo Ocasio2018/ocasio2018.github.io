@@ -40,7 +40,7 @@
         </div>
         <div class="col-md-8">
           <div class="alert alert-primary" role="alert">
-            The dialer for Alexandria Ocasio-Cortez is closes at 9:00PM ET. It re-opens in the morning at <strong>10 AM ET</strong>. Sign Up for a Call Shift!
+            The dialer for Alexandria Ocasio-Cortez closes at 9:00PM ET. It re-opens in the morning at <strong>10 AM ET</strong>. Sign Up for a Call Shift!
           </div>
         </div>
       </div>
