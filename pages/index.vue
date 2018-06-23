@@ -34,13 +34,13 @@
     <section class="container content">
       <div class="row">
         <div class="col-md-4">
-          <a type="button" class="btn btn-outline-primary fluid" href="https://docs.google.com/document/d/13PglZGs0pGkpTy3BWZbbUdhla63nJhTIHpYtq_X0A8M/edit?usp=sharing" target="_blank">Learn How to Make Calls</a>
-          <a type="button" class="btn btn-outline-primary fluid" href="https://desktop.justicedialer.com/candidate/Alexandria-Ocasio-Cortez" target="_blank">View the Calling Script</a>
+          <a class="btn btn-outline-primary fluid" href="https://docs.google.com/document/d/13PglZGs0pGkpTy3BWZbbUdhla63nJhTIHpYtq_X0A8M/edit?usp=sharing" target="_blank">Learn How to Make Calls</a>
+          <a class="btn btn-outline-primary fluid" href="https://desktop.justicedialer.com/candidate/Alexandria-Ocasio-Cortez" target="_blank">View the Calling Script</a>
           <hr>
         </div>
         <div class="col-md-8">
           <div class="alert alert-primary" role="alert">
-            The dialer for Alexandria Ocasio-Cortez is closes at 9:00PM ET. It re-opens in the morning at <strong>10 AM ET</strong>. Sign Up for a Call Shift!
+            The dialer for Alexandria Ocasio-Cortez closes at 9:00PM ET. It re-opens in the morning at <strong>10 AM ET</strong>. Sign Up for a Call Shift!
           </div>
         </div>
       </div>
@@ -51,9 +51,6 @@
         </div>
         <div class="col-md-8">
           <h2><span class="step">2</span> Log into the dialer and call</h2>
-          <p><strong>REMEMBER: You need to turn off your popup blocker to use our Dialer</strong> (click on the name of your browser to see the fullsize animation)</p>
-          <p>Change before you log in: Safari, Edge</p>
-          <p>Change while you log in:  Chrome, Firefox</p>
           <iframe src="https://portal.na4.livevox.com/BrandNewCampaign/AgentLogin?wmode=opaque" style="width:100%;height:550px;"></iframe>
         </div>
       </div>
@@ -65,7 +62,7 @@
         </div>
         <div class="col-md-8">
           <h2>Calling Hours</h2>
-          <p>We make calls from <strong>10AM - 9PM</strong> on <strong>Monday</strong> through <strong>Saturday</strong> and <strong>12PM - 9PM</strong> on <strong>Sundays</strong> in our candidates' local time zones</strong>, so check back anytime you want to make calls.</p>
+          <p>We make calls from <strong>10AM - 9PM</strong> on <strong>Monday</strong> through <strong>Saturday</strong> and <strong>12PM - 9PM</strong> on <strong>Sundays</strong> local time in New York</strong>, so check back anytime you want to make calls.</p>
           <p>However, your login information will change each day, so you'll need to reclaim it.</p>
         </div>
       </div>
@@ -100,8 +97,12 @@
 }
 
 //Content
-.content{
+.content {
   padding: 2.5em 1em;
+
+  @include media-breakpoint-up(lg) {
+    width: 1366px;
+  }
 
   .row {
     margin-bottom: 1.5em;

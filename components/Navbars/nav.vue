@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid">
-    <nav class="navbar navbar-light bg-white row sticky-top justify-content-center">
+  <div class="container-fluid px-0">
+    <nav class="navbar navbar-light bg-white row sticky-top justify-content-center mx-0">
       <a href="/" class="navbar-brand"><img src="/Ocasio2018_Logo_Purple.png" /></a>
         <span class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><svg class="lnr lnr-menu"><use xlink:href="#lnr-menu"></use></svg></span>
       <NavLinks/>

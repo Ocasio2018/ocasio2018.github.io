@@ -29,16 +29,16 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
-    /*extend (config, ctx) {
+    extend (config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          //enforce: 'pre',
+          //test: /\.(js|vue)$/,
+          //loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
       }
-    }/*
+    }
     /*extend (config, { isDev, isClient, isServer }) {
       // fix node_modules directory
       config.resolve.modules = config.resolveLoader.modules = [path.resolve(__dirname, "node_modules")];

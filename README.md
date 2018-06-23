@@ -27,16 +27,18 @@
 
 To work locally with this project, you'll have to follow the steps below:
 
-1. Run the following command on your terminal `git clone https://github.com/aceable/mkt-driving-landing-pages.git`
+1. Run the following command on your terminal `git clone https://github.com/Ocasio2018/ocasio2018.github.io.git`
 2. cd into directory and run `npm install`
-3. Generate and preview the website with hot-reloading: `npm run dev` or `nuxt`
-4. Create New Landing Pages in the /pages directory
+3. Generate and preview the website with hot-reloading: `npm run dev`
+4. Create new pages in the /pages directory
 
 Read more at Nuxt's [documentation].
 
-## Deploying to [Netlify](https://www.netlify.com/)
+## Deploying
 
-Page is currently temporarily deployed using [app.netlify.com/aceable](https://app.netlify.com/).
+The site is currently deployed using (https://app.netlify.com/) to https://call.ocasio2018.com/.
+
+To generate static site folder run `npm run generate` or `npm run build`
 
 ## Project Structure
 ### Assets
