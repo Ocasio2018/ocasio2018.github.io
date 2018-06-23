@@ -2,7 +2,7 @@
 "title": "Phonebanking for Ocasio2018",
 
 "menu_items":{
-  "item": {"type": "", "text": "Contribute", "url": ""},
-  "item": {"type": "", "text": "Contribute", "url": ""},
-  "item": {"type": "", "text": "Contribute", "url": ""},
+  "item": {"type": "", "text": "", "url": ""},
+  "item": {"type": "", "text": "", "url": ""},
+  "item": {"type": "", "text": "", "url": ""},
 },
