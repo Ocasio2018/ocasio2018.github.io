@@ -2,8 +2,8 @@
   // if (process.BROWSER_BUILD) {
   // }
 
-  import Nav from '~components/Navbars/Nav.vue'
-  import Footer from '~components/Footers/FooterBar.vue'
+  import Nav from '~/components/Navbars/Nav.vue'
+  import Footer from '~/components/Footers/FooterBar.vue'
 
   export default {
     layout: 'default',
@@ -16,11 +16,6 @@
         { property: 'og:url', content: 'https://ocasio2018.github.io' },
         { property: 'og:type', content: 'website' },
       ]
-    },
-    methods: {
-      toggle () {
-        this.$store.dispatch('toggle')
-      }
     },
     components: {
       Nav, Footer
