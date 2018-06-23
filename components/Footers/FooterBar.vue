@@ -9,7 +9,7 @@
       <div class="col">
         <p>General Contact: <a href="mailto:us@ocasio2018.com" target="_blank">us@ocasio2018.com</a><br>
         Press Contact: <a href="mailto:press@ocasio2018.com" target="_blank">press@ocasio2018.com</a><br>
-        <a href="Privacy Policy" target="_blank">Privacy Policy</a></p></div>
+        <a href="https://docs.google.com/document/d/1GRVjf_t3ImKrz8RDz5jf8dpLDWlP6dMwm6qlYvTccvw/edit" target="_blank">Privacy Policy</a></p></div>
     </div>
   </div>
 </template>
