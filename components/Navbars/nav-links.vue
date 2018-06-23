@@ -1,13 +1,13 @@
 <template>
   <div class="links row justify-content-end">
-    <a class="nav-link btn action"  href="//secure.actblue.com/donate/ocasio2018">Contribute</a>
-    <a class="nav-link" href="//ocasio2018.com/about">About</a>
-    <a class="nav-link" href="h//ocasio2018.com/issues">Issues</a>
-    <a class="nav-link" href="//ocasio2018.com/#chunk-events">Events</a>
-    <a class="nav-link" href="//ocasio2018.com/#chunk-news">News</a>
-    <a class="nav-link" href="ocasio2018.com/#chunk-endorsements">Endorsements</a>
-    <a class="nav-link" href="//store.fiimarketing.com/ocasio2018/shop/home" target="_blank">Store</a>
-    <a class="nav-link btn primary" href="//ocasio2018.com/#chunk-volunteer">Volunteer</a>
+    <a class="nav-link btn action"  href="https://secure.actblue.com/donate/ocasio2018" target="_blank">Contribute</a>
+    <a class="nav-link" href="https://ocasio2018.com/about" target="_blank">About</a>
+    <a class="nav-link" href="https://ocasio2018.com/.com/issues" target="_blank">Issues</a>
+    <a class="nav-link" href="https://ocasio2018.com//#chunk-events target="_blank"">Events</a>
+    <a class="nav-link" href="https://ocasio2018.com//#chunk-news" target="_blank">News</a>
+    <a class="nav-link" href="https://ocasio2018.com//#chunk-endorsements" target="_blank">Endorsements</a>
+    <a class="nav-link" href="https://store.fiimarketing.com/ocasio2018/shop/home" target="_blank">Store</a>
+    <a class="nav-link btn primary" href="https://ocasio2018.com/#chunk-volunteer" target="_blank">Volunteer</a>
   </div>
 </template>
 
