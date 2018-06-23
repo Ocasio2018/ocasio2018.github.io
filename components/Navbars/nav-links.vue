@@ -3,7 +3,7 @@
     <a class="nav-link btn action"  href="https://secure.actblue.com/donate/ocasio2018" target="_blank">Contribute</a>
     <a class="nav-link" href="https://ocasio2018.com/about" target="_blank">About</a>
     <a class="nav-link" href="https://ocasio2018.com/.com/issues" target="_blank">Issues</a>
-    <a class="nav-link" href="https://ocasio2018.com//#chunk-events target="_blank"">Events</a>
+    <a class="nav-link" href="https://ocasio2018.com//#chunk-events" target="_blank">Events</a>
     <a class="nav-link" href="https://ocasio2018.com//#chunk-news" target="_blank">News</a>
     <a class="nav-link" href="https://ocasio2018.com//#chunk-endorsements" target="_blank">Endorsements</a>
     <a class="nav-link" href="https://store.fiimarketing.com/ocasio2018/shop/home" target="_blank">Store</a>
