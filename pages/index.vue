@@ -51,9 +51,6 @@
         </div>
         <div class="col-md-8">
           <h2><span class="step">2</span> Log into the dialer and call</h2>
-          <p><strong>REMEMBER: You need to turn off your popup blocker to use our Dialer</strong> (click on the name of your browser to see the fullsize animation)</p>
-          <p>Change before you log in: Safari, Edge</p>
-          <p>Change while you log in:  Chrome, Firefox</p>
           <iframe src="https://portal.na4.livevox.com/BrandNewCampaign/AgentLogin?wmode=opaque" style="width:100%;height:550px;"></iframe>
         </div>
       </div>
@@ -100,8 +97,12 @@
 }
 
 //Content
-.content{
+.content {
   padding: 2.5em 1em;
+
+  @include media-breakpoint-up(lg) {
+    width: 1366px;
+  }
 
   .row {
     margin-bottom: 1.5em;
