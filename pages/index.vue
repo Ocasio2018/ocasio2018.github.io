@@ -35,7 +35,7 @@
       <div class="row">
         <div class="col-md-4">
           <a class="btn btn-outline-primary fluid" href="https://docs.google.com/document/d/13PglZGs0pGkpTy3BWZbbUdhla63nJhTIHpYtq_X0A8M/edit?usp=sharing" target="_blank">Learn How to Make Calls</a>
-          <a class="btn btn-outline-primary fluid" href="https://desktop.justicedialer.com/candidate/Alexandria-Ocasio-Cortez" target="_blank">View the Calling Script</a>
+          <a class="btn btn-outline-primary fluid" href="https://desktop.justicedialer.com/candidate/alexandria-ocasio-cortez-gotv" target="_blank">View the Calling Script</a>
           <hr>
         </div>
         <div class="col-md-8">
@@ -47,7 +47,7 @@
       <div class="row">
         <div class="col-md-4">
         <h2><span class="step">1</span> Claim Your Login</h2>
-        <iframe src="https://justicedialer.com/login-iframe/jd?post_sign=https://ocasio2018.com/" style="width:100%;height:550px;"></iframe>
+        <iframe src="https://justicedialer.com/login-iframe/ocasio?post_sign=https://ocasio2018.com/" style="width:100%;height:550px;"></iframe>
         </div>
         <div class="col-md-8">
           <h2><span class="step">2</span> Log into the dialer and call</h2>
