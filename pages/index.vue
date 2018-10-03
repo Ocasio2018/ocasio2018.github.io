@@ -35,7 +35,7 @@
       <div class="row">
         <div class="col-md-4">
           <a class="btn btn-outline-primary fluid" href="https://docs.google.com/document/d/13PglZGs0pGkpTy3BWZbbUdhla63nJhTIHpYtq_X0A8M/edit?usp=sharing" target="_blank">Learn How to Make Calls</a>
-          <a class="btn btn-outline-primary fluid" href="https://desktop.justicedialer.com/candidate/alexandria-ocasio-cortez-gotv" target="_blank">View the Calling Script</a>
+          <a class="btn btn-outline-primary fluid" href="https://desktop.relaydial.com/candidate/ny-14-persuasion" target="_blank">View the Calling Script</a>
           <hr>
         </div>
         <div class="col-md-8">
