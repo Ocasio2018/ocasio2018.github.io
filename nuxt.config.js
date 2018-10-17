@@ -40,12 +40,13 @@ module.exports = {
         })
       }
     }*/
-    extend (config, { isDev, isClient, isServer }) {
+    /*extend (config, { isDev, isClient, isServer }) {
       // fix node_modules directory
       config.resolve.modules = config.resolveLoader.modules = [path.resolve(__dirname, "node_modules")];
+    },*/
+
+    resolve: {
+      extensions: ['*', '.js', '.vue', '.json']
     }
-  },
-  resolve: {
-    extensions: ['*', '.js', '.vue', '.json']
   }
 }
