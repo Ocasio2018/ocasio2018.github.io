@@ -34,8 +34,18 @@
     <section class="container content">
       <div class="row">
         <div class="col-md-4">
-          <a class="btn btn-outline-primary fluid" href="https://docs.google.com/document/d/13PglZGs0pGkpTy3BWZbbUdhla63nJhTIHpYtq_X0A8M/edit?usp=sharing" target="_blank">Learn How to Make Calls</a>
-          <a class="btn btn-outline-primary fluid" href="https://desktop.justicedialer.com/candidate/Alexandria-Ocasio-Cortez" target="_blank">View the Calling Script</a>
+          <a class="btn btn-outline-primary fluid" href="https://www.youtube.com/watch?v=tIu6NhAyeBQ" target="_blank">Learn How to Make Calls <span class="lnr lnr-chevron-right"></span></a>
+          <div class="dropdown">
+            <a class="btn dropdown-toggle btn-outline-primary fluid" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              View the Calling Scripts <span class="lnr lnr-chevron-right"></span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" target="_blank" href="https://desktop.relaydial.com/candidate/ny-14-lean-left-non-voter">Lean Left Non-Voter<span class="lnr lnr-chevron-right"></span></a>
+              <a class="dropdown-item" target="_blank" href="https://desktop.relaydial.com/candidate/ny-14-likely-voters">Likely Voters<span class="lnr lnr-chevron-right"></span></a>
+              <a class="dropdown-item" target="_blank" href="https://desktop.relaydial.com/candidate/ny-14-primary-positive-id">Primary IDs<span class="lnr lnr-chevron-right"></span></a>
+              <a class="dropdown-item" target="_blank" href="https://desktop.relaydial.com/candidate/ny-14-likely-spanish">Spanish<span class="lnr lnr-chevron-right"></span></a>
+            </div>
+          </div>
           <hr>
         </div>
         <div class="col-md-8">
@@ -93,6 +103,34 @@
     font-weight: 800;
     color: white;
     text-align: center;
+  }
+}
+// Buttons & Dropdown
+.btn-outline-primary {
+  text-align: left;
+  line-height: 1em;
+}
+
+span.lnr {
+  float: right;
+  margin-top: 4px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  width: 100%;
+  padding: 0;
+
+  .dropdown-item {
+    padding: 1em 1.5em;
+    color: $brand-primary;
+
+    &:hover {
+      color: $purple;
+    }
   }
 }
 
