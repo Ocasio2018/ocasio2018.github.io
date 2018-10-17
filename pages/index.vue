@@ -1,6 +1,32 @@
+<script>
+  // if (process.BROWSER_BUILD) {
+  // }
+
+  import Nav from '~/components/Navbars/Nav.vue'
+  import Footer from '~/components/Footers/FooterBar.vue'
+
+  export default {
+    layout: 'default',
+    head: {
+      title: 'Ocasio2018 Phonebanking',
+      meta: [
+        { vmid: 'description', name: 'description', content: 'Make calls for Ocasio2018' },
+        { property: 'og:title', content: 'Make Calls for Ocasio2018' },
+        { property: 'og:image', content: 'https://ocasio2018.netlify.com/Ocasio2018_meta_img.png' },
+        { property: 'og:url', content: 'https://ocasio2018.github.io' },
+        { property: 'og:type', content: 'website' },
+      ]
+    },
+    components: {
+      Nav, Footer
+    }
+  }
+
+</script>
+
 <template>
     <main>
-    <vav/>
+    <Nav/>
     <section class="container-fluid header">
       <div class="row justify-content-center">
         <h1>Make Calls for Alexandria Ocasio-Cortez</h1>
@@ -53,36 +79,10 @@
       </div>
     </section>
     <section class="container-fluid footer">
-      <footer/>
+      <Footer/>
     </section>
   </main>
 </template>
-
-<script>
-  // if (process.BROWSER_BUILD) {
-  // }
-
-  import Nav from '~/components/Navbars/Nav.vue'
-  import Footer from '~/components/Footers/FooterBar.vue'
-
-  export default {
-    layout: 'default',
-    head: {
-      title: 'Ocasio2018 Phonebanking',
-      meta: [
-        { vmid: 'description', name: 'description', content: 'Make calls for Ocasio2018' },
-        { property: 'og:title', content: 'Make Calls for Ocasio2018' },
-        { property: 'og:image', content: 'https://ocasio2018.netlify.com/Ocasio2018_meta_img.png' },
-        { property: 'og:url', content: 'https://ocasio2018.github.io' },
-        { property: 'og:type', content: 'website' },
-      ]
-    },
-    components: {
-      Nav, Footer
-    }
-  }
-
-</script>
 
 <style lang="scss">
 @import '~assets/scss/buttons';
