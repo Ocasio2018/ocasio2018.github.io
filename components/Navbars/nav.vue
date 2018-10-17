@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import NavLinks from '~/components/Navbars/nav-links.vue'
+import NavLinks from '~/components/Navbars/NavLinks.vue'
 
 export default {
   components: {
