@@ -29,7 +29,7 @@ module.exports = {
   build: {
     /*
     ** Run ESLINT on save
-    */
+    *
     extend (config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
