@@ -58,7 +58,7 @@
       <div class="row">
         <div class="col-md-4">
         <h2><span class="step">1</span> Claim Your Login</h2>
-        <iframe src="https://justicedialer.com/login-iframe/jd?post_sign=https://ocasio2018.com/" style="width:100%;height:550px;"></iframe>
+        <iframe src="https://justicedialer.com/login-iframe/ocasio?post_sign=https://ocasio2018.com/" style="width:100%;height:550px;"></iframe>
         </div>
         <div class="col-md-8">
           <h2><span class="step">2</span> Log into the dialer and call</h2>
