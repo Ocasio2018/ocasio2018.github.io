@@ -2,7 +2,7 @@
   <div class="container-fluid px-0">
     <nav class="navbar navbar-light bg-white row sticky-top justify-content-center mx-0">
       <a href="/" class="navbar-brand"><img src="/Ocasio2018_Logo_Purple.png" /></a>
-        <span class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggleExternalContent"><svg class="lnr lnr-menu"><use xlink:href="#lnr-menu"></use></svg></span>
+      <span class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggleExternalContent"><svg class="lnr lnr-menu"><use xlink:href="#lnr-menu"></use></svg></span>
       <NavLinks/>
     </nav>
     <div class="collapse" id="navbarToggleExternalContent">
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import NavLinks from '~/components/Navbars/nav-links.vue'
+import NavLinks from '~/components/Navbars/NavLinks.vue'
 
 export default {
   components: {

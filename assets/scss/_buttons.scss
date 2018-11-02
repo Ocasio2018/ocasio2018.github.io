@@ -23,3 +23,10 @@
     color: white !important;
   }
 }
+
+
+//Dropdown buttons
+.show>.btn-outline-primary.dropdown-toggle {
+    background-color: $brand-primary;
+    color: white !important;
+}
