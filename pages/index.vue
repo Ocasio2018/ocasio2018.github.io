@@ -36,7 +36,8 @@
       <div class="row">
         <div class="col-md-4">
           <a class="btn btn-outline-primary fluid" href="https://www.youtube.com/watch?v=tIu6NhAyeBQ" target="_blank">Learn How to Make Calls <span class="lnr lnr-chevron-right"></span></a>
-          <div class="dropdown">
+          <a class="btn btn-outline-primary fluid" href="https://desktop.relaydial.com/candidate/ny-14-gotv" target="_blank">View the Calling Scripts<span class="lnr lnr-chevron-right"></span></a>
+          <!--<div class="dropdown">
             <a class="btn dropdown-toggle btn-outline-primary fluid" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               View the Calling Scripts <span class="lnr lnr-chevron-right"></span>
             </a>
@@ -46,7 +47,7 @@
               <a class="dropdown-item" target="_blank" href="https://desktop.relaydial.com/candidate/ny-14-primary-positive-id">Primary IDs<span class="lnr lnr-chevron-right"></span></a>
               <a class="dropdown-item" target="_blank" href="https://desktop.relaydial.com/candidate/ny-14-likely-spanish">Spanish<span class="lnr lnr-chevron-right"></span></a>
             </div>
-          </div>
+          </div>-->
           <hr>
         </div>
         <div class="col-md-8">
